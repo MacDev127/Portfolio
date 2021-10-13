@@ -355,6 +355,7 @@
     #socials .fab {
         color: #fff;
         margin: 5px;
+        font-size: 28px;
     }
     
     .fab:hover {
