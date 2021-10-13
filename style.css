@@ -231,10 +231,10 @@
         align-items: center;
         text-align: center;
     }
-    
-    .features {
-        /* flex-basis: 50%; */
-    }
+    /* .features {
+        flex-basis: 50%;
+        
+    } */
     
     .features-img {
         flex-basis: 50%;
@@ -248,7 +248,7 @@
     
     .intro {
         color: #fff;
-        text-align: justify;
+        text-align: center;
         font-size: 20px;
         letter-spacing: 0px;
         word-spacing: 0PX;
@@ -521,7 +521,6 @@
             color: #fff;
             font-size: 22px;
             text-align: justify;
-            letter-spacing: 0px;
             padding-top: 20px;
             font-weight: 300;
             line-height: 40px;
@@ -546,8 +545,8 @@
     
     @media screen and (max-width: 992px) {
         .intro-text h1 {
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 50px;
+            line-height: 70px;
         }
         .work {
             display: flex;
@@ -567,8 +566,7 @@
             color: #fff;
             font-size: 16px;
             text-align: justify;
-            letter-spacing: 0px;
-            word-spacing: 0px;
+            word-spacing: -2px;
             padding-top: 20px;
             font-weight: 200;
         }
@@ -576,8 +574,8 @@
     
     @media screen and (max-width: 768px) {
         .intro-text h1 {
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 50px;
+            line-height: 70px;
         }
         .work {
             display: flex;
@@ -608,8 +606,8 @@
     
     @media screen and (max-width: 640px) {
         .intro-text h1 {
-            font-size: 40px;
-            line-height: 50px;
+            font-size: 50px;
+            line-height: 70px;
         }
         .work {
             display: flex;
@@ -625,8 +623,7 @@
             color: #fff;
             font-size: 16px;
             text-align: justify;
-            letter-spacing: 0px;
-            word-spacing: 0px;
+            word-spacing: -2px;
             padding-top: 20px;
             font-weight: 200;
         }
@@ -641,7 +638,7 @@
     @media screen and (max-width: 600px) {
         .intro-text h1 {
             font-size: 40px;
-            line-height: 50px;
+            line-height: 70px;
         }
         .work {
             display: flex;
@@ -657,12 +654,42 @@
             color: #fff;
             font-size: 16px;
             text-align: justify;
-            letter-spacing: 0px;
-            word-spacing: 0px;
-            padding-top: 20px;
-            font-weight: 200;
+            word-spacing: -2px;
         }
         .form-control {
             width: 300px;
+        }
+    }
+    
+    @media screen and (max-width: 478px) {
+        .intro-text h1 {
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .intro {
+            color: #fff;
+            font-size: 16px;
+            text-align: justify;
+            word-spacing: -2px;
+        }
+    }
+    
+    @media screen and (max-width: 419px) {
+        .intro-text h1 {
+            font-size: 30px;
+            line-height: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        .intro-text h1 {
+            font-size: 30px;
+            line-height: 50px;
+        }
+        .intro {
+            color: #fff;
+            font-size: 16px;
+            text-align: justify;
+            letter-spacing: -1px;
         }
     }
